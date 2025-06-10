@@ -43,6 +43,7 @@ llama-cpp = [
 
 graphrag = ["graphrag>=1.0.1"]
 chromadb = ["chromadb>=1.0.0"]
+llamaindex = ["llama-index>=0.12.40"]
 web-surfer = [
     "autogen-agentchat==0.6.1",
     "playwright>=1.48.0",
@@ -147,6 +148,9 @@ rich = ["rich>=13.9.4"]
 mcp = ["mcp>=1.8.1"]
 canvas = [
     "unidiff>=0.7.5",
+]
+llama-index = [
+    "llama-index>=0.12.41",
 ]
 
 [tool.hatch.build.targets.wheel]
